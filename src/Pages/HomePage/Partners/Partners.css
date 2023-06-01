@@ -1,0 +1,11 @@
+.partnersSection {
+    margin-top: 130px;
+}
+
+.logoSection {
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}

@@ -1,0 +1,19 @@
+.primaryBtn {
+    color: var(--link-color);
+    background-color: white;
+    padding: 15px 25px;
+    font-weight: 700;
+    border-radius: 7px;
+    border: 1px solid var(--link-color);
+    transition: 0.3s ease;
+}
+
+.primaryBtn:hover {
+    border-color: var(--color-2);
+    background-color: var(--link-color);
+    color: white;
+}
+
+.bannerTitle, .bannerSubTitle {
+    font-family: var(--cursive);
+}

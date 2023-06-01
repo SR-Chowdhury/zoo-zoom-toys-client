@@ -1,0 +1,39 @@
+.singleToyContainer {
+    margin: 130px 0px;
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.singleToySection {
+    width: 50%;
+}
+
+.singleToyLeftSection {
+    background-color: var(--color-2);
+}
+
+.singleToyName {
+    color: var(--link);
+    font-size: 42px;
+    font-family: var(--cursive);
+    font-weight: bold;
+}
+
+.singleToyPrice,
+.singleToyRating,
+.singleToyQuantity,
+.singleToySellerName,
+.singleToySellerEmail,
+.singleToyDetails {
+    font-family: var(--rubik);
+    font-size: 18px;
+    font-weight: 400;
+    color: #655752;
+}
+
+.viewProductBtn {
+    color: var(--link);
+    /* font-size: 30px; */
+}

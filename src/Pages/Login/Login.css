@@ -1,0 +1,17 @@
+.loginContainer {
+    margin: 130px 0px;
+}
+
+.heroSection {
+    width: 50%;
+}
+
+.hero-content {
+    gap: 42px;
+}
+
+.loginTitle {
+    color: var(--link);
+    font-size: xx-large;
+    font-weight: 700;
+}

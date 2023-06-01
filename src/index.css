@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;700&display=swap');
+
+:root {
+    --color-1: #f2727d;
+    --color-2: #fef0e7;
+    --heading-color: #4a2d4c;
+    --border-color: #fdcdc9;
+    --link-color: #4a2d4c;
+    --link-hover-color: #f2727d;
+    --cursive: 'Baloo Chettan 2', cursive;
+    --rubik: 'Rubik', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
+
+/* 
+-------------------------------------------------------------------------
+                RESPONSIVE (Mobile devices)
+-------------------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    * {
+        background-color: white;
+    }
+
+    footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .home-banner-container,
+    .bannerInSmallScreen,
+    .bannerTitle,
+    .bannerSubTitle,
+    .bannerBtn {
+        background-color: var(--color-2) !important;
+    }
+
+    .bannerInSmallScreen {
+        width: 100%;
+        padding-left: 12px !important;
+    }
+
+    .bannerInSmallScreen p {
+        display: none !important;
+    }
+
+    .bannerTitle {
+        font-size: 22px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .bannerSubTitle {
+        font-size: 20px !important;
+        margin-top: 5px !important;
+    }
+
+    .sectionTitle {
+        font-size: 35px !important;
+    }
+
+    .sectionTag {
+        font-size: 18px;
+    }
+
+    .partnersSection,
+    .gallerySection,
+    .shopSection,
+    .advertiseContainer,
+    .singleToyContainer {
+        margin-top: 75px !important;
+    }
+
+    .singleToyContainer {
+        flex-direction: column !important;
+    }
+
+    .singleToySection {
+        padding: 12px !important;
+        width: 100% !important;
+    }
+
+    .logoSection {
+        margin-top: 20px;
+        gap: 15px;
+    }
+
+    .gallerySectionTag {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .gallaryContainer {
+        grid-template-columns: repeat(1, 1fr) !important;
+        padding: 12px;
+    }
+
+    .gallaryContainer .card,
+    .shopCardContainer .card {
+        width: 100% !important;
+
+    }
+
+    .gallaryContainer .gallaryCardBody,
+    .gallaryContainer figure,
+    .gallaryContainer figure img,
+    .gallaryTitle,
+    .galleryInfo,
+    .galleryInfoBody,
+    .gallerySmallImg img {
+        background-color: var(--color-2);
+    }
+
+    .gallaryContainer figure img {
+        width: 50%;
+    }
+
+    .gallaryContainer .card figure {
+        padding-bottom: 0px !important;
+    }
+
+    .shopCardContainer {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .shopTitleDiv {
+        margin-bottom: 25px;
+    }
+
+    .shopViewBtn {
+        margin-bottom: 15px;
+    }
+
+    .advertiseContainer {
+        flex-direction: column;
+        margin-bottom: 45px !important;
+    }
+
+    .ad-section {
+        width: 100% !important;
+    }
+
+    .blogSection,
+    .addToyContainer,
+    .MyToyContainer,
+    .loginContainer {
+        margin: 75px 0px !important;
+    }
+
+    .blogSection h1 {
+        font-size: 22px !important;
+        margin-bottom: 10px;
+    }
+
+    .blogFlex1 {
+        flex-direction: column;
+    }
+
+    .blogFlex2 {
+        flex-direction: column-reverse;
+    }
+
+    .blogFlexImg {
+        width: 70% !important;
+        margin: 0 auto !important;
+    }
+
+    .primaryBtn {
+        padding: 7px 12px !important;
+    }
+
+    .hero-content {
+        flex-direction: column !important;
+    }
+
+    .heroSection {
+        width: 100% !important;
+    }
+
+    .advertiseTitle {
+        text-align: center !important;
+    }
+
+    .singleFooterDiv,
+    .singleFooterDiv span,
+    .singleFooterDiv a,
+    .singleFooterDiv div,
+    .footerBtm svg, .footerLogo svg, .footerLogo p, .footerBtm path {
+        background-color: var(--color-2) !important;
+    }
+
+}

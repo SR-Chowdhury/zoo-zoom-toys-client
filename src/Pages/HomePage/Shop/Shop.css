@@ -1,0 +1,43 @@
+.shopSection {
+    margin-top: 130px;
+}
+
+.shopCardContainer {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 48px;
+    column-gap: 35px;
+}
+
+.shopCardImg {
+    /* background-color: var(--color-2); */
+    padding: 15px;
+    width: 75%;
+    margin: 0 auto;
+    transition: 0.3s ease-in-out;
+}
+
+
+.shopCard {
+   transition: 0.5s ease-in-out;
+}
+
+.shopCard:hover {
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px var(--color-1));
+}
+
+.shopCard:hover .shopCardImg {
+    /* padding: 25px; */
+}
+
+.productName {
+    font-size: x-large;
+    font-weight: 700;
+    font-family: var(--cursive);
+    margin-bottom: 10px;
+}
+
+.ratingDiv {
+    /* text-align: center !important; */
+}

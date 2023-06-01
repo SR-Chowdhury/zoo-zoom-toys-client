@@ -1,0 +1,15 @@
+.blogSection {
+    margin: 130px 0px;
+    font-family: var(--poppins);
+}
+
+.blogSection h1 {
+    color: var(--link-color);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.blogSection p {
+    font-size: 16px;
+}

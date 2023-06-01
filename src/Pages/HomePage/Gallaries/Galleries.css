@@ -1,0 +1,35 @@
+.gallerySection {
+    margin-top: 130px;
+}
+
+.gallaryContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 48px;
+    column-gap: 24px;
+}
+
+.gallaryCardBody {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    gap: 12px;
+    font-family: var(--cursive);
+}
+
+.gallaryTitle {
+    transition: 0.3s ease-in-out;
+}
+
+.gallaryContainer .card {
+    background-color: var(--color-2) !important;
+    transition: 0.3s ease-in-out;
+}
+
+.gallaryContainer .card:hover  {
+    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px var(--color-1));
+}
+
+.gallaryContainer .card:hover .gallaryTitle {
+    color: var(--color-1);
+}

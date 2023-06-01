@@ -1,0 +1,23 @@
+.advertiseContainer {
+    padding: 130px 0px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ad-section {
+    width: 50%;
+}
+
+.card-title {
+    color: var(--link-color);
+    font-size: 24px;
+}
+
+.sectionTitle {
+    font-size: 54px;
+    color: var(--link-color);
+    font-weight: bold;
+    font-family: var(--cursive);
+}
